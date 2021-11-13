@@ -88,8 +88,24 @@ nav ul a{
     height: 2px;
     position: absolute;
     width: 20px;
+    top: 10px;
+    left: 5px;
+    transition: transform 0.6s linear;
 }
 
+.icon .line2{
+    top: auto;
+    bottom: 10px;
+}
+
+nav.active .icon .line1{
+    transform: rotate(-765deg) translateY(5.5px);
+}
+
+nav.active .icon .line2{
+    transform: rotate(765deg) translateY(-5.5px);
+
+}
 
 
 
